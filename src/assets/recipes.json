@@ -1,0 +1,418 @@
+[
+    {
+        "id": 1,
+        "title": "Mojito",
+        "ingredients": [
+            {
+                "name": "lime wedges",
+                "quantity": "4"
+            },
+            {
+                "name": "sugar",
+                "quantity": "1 tbsp"
+            },
+            {
+                "name": "mint leaves",
+                "quantity": "4"
+            },
+            {
+                "name": "white rum",
+                "quantity": "1.5 oz"
+            },
+            {
+                "name": "soda water",
+                "quantity": "to top"
+            }
+        ],
+        "garnish": [
+            "mint leaves", "lime slice"
+        ],
+        "background": "linear-gradient(180deg, #2a893a 0%, #bfff00 20%, #fff 100%)",
+        "instructions": "Muddle the lime wedges with the sugar and mint leaves. Add ice to fill the cup, then add the rum. Fill with soda, then stir with a bar spoon. For the garnish, lightly crush the mint leaves to release the juices, and add them to the drink along with the lime slice."
+    },
+    {
+        "id": 2,
+        "title": "Caipirinha",
+        "ingredients": [
+            {
+                "name": "lime wedges",
+                "quantity": "4"
+            },
+            {
+                "name": "brown sugar",
+                "quantity": "1 tbsp"
+            },
+            {
+                "name": "cachaça",
+                "quantity": "1.5 oz"
+            },
+            {
+                "name": "soda water",
+                "quantity": "to top"
+            }
+        ],
+        "garnish": [
+            "lime slice"
+        ],
+        "background": "linear-gradient(225deg, #2e922e 0%, #ae918b 68%)",
+        "instructions": "Muddle the lime wedges with the sugar. Add ice to fill the cup, then add the cachaça. Fill with soda, then stir with a bar spoon. Add the lime slice for garnish."
+    },
+    {
+        "id": 3,
+        "title": "Daiquiri",
+        "ingredients": [
+            {
+                "name": "white rum",
+                "quantity": "2 oz"
+            },
+            {
+                "name": "simple syrup",
+                "quantity": "2 oz"
+            },
+            {
+                "name": "lemon juice",
+                "quantity": "1/2"
+            }
+        ],
+        "garnish": [
+            "lime slice"
+        ],
+        "background": "radial-gradient(circle, #fdffe2 0%, #dfecab 31%)",
+        "instructions": "Add all ingredients in a shaker over ice. Shake and strain into a chilled cup. Garnish with a thin lime slice."
+    },
+    {
+        "id": 4,
+        "title": "Blue Lagoon",
+        "ingredients": [
+            {
+                "name": "vodka",
+                "quantity": "1 1/2 oz"
+            },
+            {
+                "name": "curaçao",
+                "quantity": "1/2 oz"
+            },
+            {
+                "name": "sprite",
+                "quantity": "to top"
+            }
+        ],
+        "garnish": [
+            "cherry/orange slice"
+        ],
+        "background": "linear-gradient(0deg, #2f7ea8 0%, #81f9f2 100%)",
+        "instructions": "Add the vodka and curaçao in a shaker over ice. Shake and strain into an ice filled cup. Top with sprite, and garnish with an orange slice or a marachino cherry."
+    },
+    {
+        "id": 5,
+        "title": "The Bee's Knees",
+        "ingredients": [
+            {
+                "name": "gin",
+                "quantity": "2 oz"
+            },
+            {
+                "name": "honey syrup",
+                "quantity": "1/2 oz"
+            },
+            {
+                "name": "lemon juice",
+                "quantity": "1/2"
+            }
+        ],
+        "garnish": [
+            "lemon/orange slice"
+        ],
+        "background": "linear-gradient(0deg, #E79A3F 0%, #f6ece1 100%)",
+        "instructions": "Add all the ingredients in a shaker over ice. Shake and strain into a chilled cup. Garnish with an orange or a lemon slice."
+    },
+    {
+        "id": 6,
+        "title": "Old fashioned",
+        "ingredients": [
+            {
+                "name": "whiskey",
+                "quantity": "2 oz"
+            },
+            {
+                "name": "bitter",
+                "quantity": "3 dashes"
+            },
+            {
+                "name": "sugar cube",
+                "quantity": "1"
+            }
+        ],
+        "garnish": [
+            "orange slice/peel"
+        ],
+        "background": "linear-gradient(0deg, #d29072 0%, #da7344 100%)",
+        "instructions": "Add the whiskey and the bitter in a tall cup. Add the sugar cube, and muddle it into the liquids. (NOTE: Substitute sugar cube with 1 tsp of sugar or syrup). Add ice, then stir all intil it's a bit diluted. Strain into a cup with an ice cube inside. Garnish with an orange slice or peel."
+    },
+    {
+        "id": 7,
+        "title": "Whiskey Sour",
+        "ingredients": [
+            {
+                "name": "whiskey",
+                "quantity": "2 oz"
+            },
+            {
+                "name": "syrup",
+                "quantity": "1/2 oz"
+            },
+            {
+                "name": "lemon juice",
+                "quantity": "1/2"
+            },
+            {
+                "name": "egg white (opt)",
+                "quantity": "1"
+            }
+        ],
+        "garnish": [
+            "marachino cherry", "orance slice"
+        ],
+        "background": "linear-gradient(180deg, #d06262 0%, #e3a05a 38%)",
+        "instructions": "Add all the ingredients in a shaker over ice. Shake well until the egg white has made a foam, and strain into an ice filled cup. Garnish with an orange slice and a cherry."
+    },
+    {
+        "id": 8,
+        "title": "New York Sour",
+        "ingredients": [
+            {
+                "name": "whiskey",
+                "quantity": "2 oz"
+            },
+            {
+                "name": "syrup",
+                "quantity": "1/2 oz"
+            },
+            {
+                "name": "lemon juice",
+                "quantity": "1/2"
+            },
+            {
+                "name": "dry red wine",
+                "quantity": "1/2 oz"
+            }
+        ],
+        "garnish": [
+            "marachino cherry", "orance slice"
+        ],
+        "background": "linear-gradient(180deg, #b33974 0%, #d87e5d 38%)",
+        "instructions": "Add all the ingredients except the wine in a shaker over ice. Shake well and strain into an ice filled cup. Add the red wine on top of the cocktail, then garnish with an orange slice and a cherry."
+    },
+    {
+        "id": 9,
+        "title": "Envy Cocktail",
+        "ingredients": [
+            {
+                "name": "silver tequila",
+                "quantity": "1 1/2 oz"
+            },
+            {
+                "name": "curaçao",
+                "quantity": "1 oz"
+            },
+            {
+                "name": "pineapple juice",
+                "quantity": "3 oz"
+            }
+        ],
+        "garnish": [
+            "marachino cherry", "orance peel", "pineapple piece"
+        ],
+        "background": "linear-gradient(180deg, #dedd39 0%, #48a5b1 38%)",
+        "instructions": "Add all the ingredients in a shaker over ice. Shake well and strain into an ice filled cup. Add the red wine on top of the cocktail, then garnish with an orange peel, a cherry, or pineapple."
+    },
+    {
+        "id": 10,
+        "title": "Coco Nut",
+        "ingredients": [
+            {
+                "name": "coconut rum",
+                "quantity": "1 1/2 oz"
+            },
+            {
+                "name": "nougat liqueur",
+                "quantity": "1 oz"
+            },
+            {
+                "name": "coconut milk",
+                "quantity": "to top"
+            }
+        ],
+        "garnish": [
+            "nut shavings"
+        ],
+        "background": "linear-gradient(180deg, #f1e5dd 0%, #72441f 60%)",
+        "instructions": "Add the rum and liqueur into an ice filled cup. Stir with a bar spoon, then top with the milk, and stir again. Garnish with shavings from any nut, preferably coconut or hazelnut."
+    },
+    {
+        "id": 11,
+        "title": "Tom Collins",
+        "ingredients": [
+            {
+                "name": "gin",
+                "quantity": "1 1/2 oz"
+            },
+            {
+                "name": "lemon juice",
+                "quantity": "1 oz"
+            },
+            {
+                "name": "syrup",
+                "quantity": "1/2 oz"
+            },
+            {
+                "name": "soda",
+                "quantity": "to top"
+            }
+        ],
+        "garnish": [
+            "lemon slice", "marachino cherry"
+        ],
+        "background": "linear-gradient(180deg, #f3eb84 0%, #abf1de 45%)",
+        "instructions": "Add all the ingredients except the soda in a shaker over ice. Shake well and strain into an ice filled cup. Add the soda to top, then garnish with a cherry or lemon slice."
+    },
+    {
+        "id": 12,
+        "title": "Tequila Sunrise",
+        "ingredients": [
+            {
+                "name": "tequila",
+                "quantity": "1 1/2 oz"
+            },
+            {
+                "name": "orange juice",
+                "quantity": "3 oz"
+            },
+            {
+                "name": "grenadine",
+                "quantity": "1/2 oz"
+            }
+        ],
+        "garnish": [
+            "orange slice", "marachino cherry"
+        ],
+        "background": "linear-gradient(180deg, #ffa94d 0%, #ded831 29%, #cc350d 100%)",
+        "instructions": "Add the tequila and orange juice in a tall glass over ice. Stir with a bar spoon, then pour the grenadine right into the middle, and let settle to the bottom. Do not stir. Garnish with a cherry or orange slice."
+    },
+    {
+        "id": 13,
+        "title": "French 75",
+        "ingredients": [
+            {
+                "name": "gin",
+                "quantity": "1 oz"
+            },
+            {
+                "name": "lemon juice",
+                "quantity": "1/2 oz"
+            },
+            {
+                "name": "syrup",
+                "quantity": "1/2 oz"
+            },
+            {
+                "name": "champagne",
+                "quantity": "to top"
+            }
+        ],
+        "garnish": [
+            "lemon twist"
+        ],
+        "background": "linear-gradient(180deg, #eedb32 0%, #e9d494 34%)",
+        "instructions": "Add all the ingredients except the champagne in a shaker over ice. Shake well, then strain into a champagne flute. Top with champagne, and garnish with a lemon peel twist."
+    },
+    {
+        "id": 14,
+        "title": "Margarita",
+        "ingredients": [
+            {
+                "name": "tequila",
+                "quantity": "2 oz"
+            },
+            {
+                "name": "lime juice",
+                "quantity": "1 oz"
+            },
+            {
+                "name": "triple sec/Cointreau",
+                "quantity": "1/2 oz"
+            }
+        ],
+        "garnish": [
+            "lime wedge", "salt"
+        ],
+        "background": "linear-gradient(180deg, #37790f 0%, #ffffff 11%, #eee1bb 34%)",
+        "instructions": "Add all the ingredients in a shaker over ice. Salt the rim of the glass, then add ice, and strain the cocktail inside. Garnish with a lime wedge."
+    },
+    {
+        "id": 15,
+        "title": "Rum Punch",
+        "ingredients": [
+            {
+                "name": "white rum",
+                "quantity": "2 oz"
+            },
+            {
+                "name": "pineapple juice",
+                "quantity": "1 oz"
+            },
+            {
+                "name": "orange juice",
+                "quantity": "1 oz"
+            },
+            {
+                "name": "lime juice",
+                "quantity": "1/2 oz"
+            },
+            {
+                "name": "grenadine (opt)",
+                "quantity": "1/4 oz"
+            },
+            {
+                "name": "bitters (opt)",
+                "quantity": "1 dash"
+            }
+        ],
+        "garnish": [
+            "pineapple piece", "orance twist"
+        ],
+        "background": "linear-gradient(180deg, #c78920 0%, #f63b4c 34%)",
+        "instructions": "Add all the ingredients in a shaker over ice. Strain into an ice filled glass. Garnish with a pineapple piece or orange peel twist."
+    },
+    {
+        "id": 16,
+        "title": "Clover Club",
+        "ingredients": [
+            {
+                "name": "gin",
+                "quantity": "2 oz"
+            },
+            {
+                "name": "lemon juice",
+                "quantity": "2/3 oz"
+            },
+            {
+                "name": "syrup",
+                "quantity": "1/2 oz"
+            },
+            {
+                "name": "egg white (opt)",
+                "quantity": "1"
+            },
+            {
+                "name": "raspberries",
+                "quantity": "1/4 oz"
+            }
+        ],
+        "garnish": [
+            "lemon slice", "raspberry"
+        ],
+        "background": "linear-gradient(180deg, #ffffff 0%, #f6717c 34%)",
+        "instructions": "Muddle the raspberries in a shaker. Add ice and the other ingredients, and shake. Strain into an ice filled glass. Garnish with a tootpick through a raspberry or lemon slice."
+    }
+]

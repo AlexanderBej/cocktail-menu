@@ -1,0 +1,54 @@
+@import '../../styles/variables';
+
+.recipe-container {
+	height: 90%;
+	text-align: left;
+	padding: 1rem;
+
+	h2 {
+		margin: 0 0 0.5em 0;
+		font-family: "Lobster", sans-serif;
+		text-align: center;
+	}
+
+	h3 {
+		margin-top: 0;
+	}
+
+	.ingredient-list {
+		text-align: left;
+		line-height: 1.5;
+		margin-top: 20px;
+		font-style: italic;
+	}
+
+	.instructions-container {
+		position: relative;
+
+		p {
+			margin: 0;
+			color: opacify($color: $black, $amount: 0.5);
+		}
+	}
+
+	.tab-title {
+		top: 30%;
+		position: absolute;
+		font-weight: 900;
+		margin: 0;
+		rotate: -45deg;
+		left: 5%;
+		opacity: 0.2;
+		font-size: 1.5em;
+		letter-spacing: 4px;
+
+		&--instructions {
+			color: $white;
+			z-index: 1;
+		}
+	}
+
+	&:nth-child(2) {
+		flex-direction: row-reverse;
+	}
+}

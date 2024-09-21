@@ -1,0 +1,49 @@
+main {
+	overflow-y: scroll;
+	scroll-snap-type: y mandatory; /* Enable snapping on the y-axis (vertical) */
+
+	section {
+		scroll-snap-align: start; /* Start snap position for each section */
+		height: 100dvh; /* Ensure each section takes the full viewport height */
+		overflow: hidden; /* Ensure no internal overflow within sections */
+		position: relative;
+		padding: 1.5rem;
+	}
+}
+
+.logo {
+	position: absolute;
+	top: 50px;
+	height: 100px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	opacity: 0.2;
+}
+
+.site-title {
+	display: flex;
+	margin: auto;
+	height: 100%;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	gap: 20px;
+
+	.inline {
+		display: inline-flex;
+		// width: 100%;
+		align-items: flex-end;
+
+		.b-letter {
+			height: 100px;
+		}
+
+		.big-letter {
+			height: 80px;
+		}
+
+		.small-letter {
+			height: 60px;
+		}
+	}
+}

@@ -1,0 +1,14 @@
+@import './variables';
+
+@mixin dot-animation-movement($direction, $fromColor, $toColor, $fromOpacity, $toOpacity) {
+	from {
+		top: 0px; // Initial position (top) is always 0px
+		background-color: $fromColor; // Starting background color of the dot
+		opacity: $fromOpacity; // Starting opacity of the dot
+	}
+	to {
+		top: $direction * $distance; // Moves the dot either up (-1) or down (1) by $distance
+		background-color: $toColor; // Ending background color of the dot
+		opacity: $toOpacity; // Ending opacity of the dot
+	}
+}

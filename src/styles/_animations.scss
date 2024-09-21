@@ -1,0 +1,74 @@
+@import './mixins';
+
+/* DOWNWARD ANIMATIONS (Scrolling Down) */
+
+@keyframes go-down-zer {
+	@include dot-animation-movement(1, $secondary-color, $secondary-color, 0, 1);
+	// Dot starts with opacity 0 (invisible) and becomes fully visible (opacity 1)
+	// Background color remains $secondary-color (secondary color), while the dot moves down 28px
+}
+
+@keyframes go-down-top {
+	@include dot-animation-movement(1, $secondary-color, $primary-color, 1, 1);
+	// Dot starts fully visible (opacity 1) and remains fully visible (opacity 1)
+	// Background color changes from $secondary-color (secondary) to $primary-color (primary) while moving down 28px
+}
+
+@keyframes go-down-mid {
+	@include dot-animation-movement(1, $primary-color, $secondary-color, 1, 1);
+	// Dot starts fully visible (opacity 1) and remains fully visible (opacity 1)
+	// Background color changes from $primary-color (primary) to $secondary-color (secondary) while moving down 28px
+}
+
+@keyframes go-down-bot {
+	@include dot-animation-movement(1, $secondary-color, $secondary-color, 1, 0);
+	// Dot starts fully visible (opacity 1) and fades to invisible (opacity 0)
+	// Background color remains $secondary-color (secondary) while moving down 28px
+}
+
+/* UPWARD ANIMATIONS (Scrolling Up) */
+
+@keyframes go-up-top {
+	@include dot-animation-movement(-1, $secondary-color, $secondary-color, 1, 0);
+	// Dot starts fully visible (opacity 1) and fades to invisible (opacity 0)
+	// Background color remains $secondary-color (secondary) while moving up 28px
+}
+
+@keyframes go-up-mid {
+	@include dot-animation-movement(-1, $primary-color, $secondary-color, 1, 1);
+	// Dot starts fully visible (opacity 1) and remains fully visible (opacity 1)
+	// Background color changes from $primary-color (primary) to $secondary-color (secondary) while moving up 28px
+}
+
+@keyframes go-up-bot {
+	@include dot-animation-movement(-1, $secondary-color, $primary-color, 1, 1);
+	// Dot starts fully visible (opacity 1) and remains fully visible (opacity 1)
+	// Background color changes from $secondary-color (secondary) to $primary-color (primary) while moving up 28px
+}
+
+@keyframes go-up-for {
+	@include dot-animation-movement(-1, $secondary-color, $secondary-color, 0, 1);
+	// Dot starts invisible (opacity 0) and becomes fully visible (opacity 1)
+	// Background color remains $secondary-color (secondary) while moving up 28px
+}
+
+
+/* RECIPE HEADER ANIMATIONS (Fade) */
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}

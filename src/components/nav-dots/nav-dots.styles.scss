@@ -1,0 +1,75 @@
+@import '../../styles/variables';
+@import '../../styles/animations';
+
+.dots-container {
+	display: flex;
+	flex-direction: column;
+	gap: 17px;
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 7px;
+	z-index: 9;
+
+	.dot {
+		width: 11px;
+		height: 11px;
+		background-color: $secondary-color;
+		border-radius: 50%;
+		position: relative; /* Allows the object to move relative to its normal position */
+		transition: transform 0.5s ease, background-color 0.5s ease; /* Smooth transition */
+
+		&--zer,
+		&--for {
+			opacity: 0; /* Initially hidden */
+		}
+
+		&--mid {
+			background-color: $primary-color;
+		}
+	}
+
+    .hidden {
+        opacity: 0;
+    }
+
+    
+}
+
+/* Simulate spinning clockwise on scroll down */
+.dots-container.up .dot {
+	&--zer {
+		animation: go-down-zer 0.5s forwards;
+	}
+
+	&--top {
+		animation: go-down-top 0.5s forwards;
+	}
+
+	&--mid {
+		animation: go-down-mid 0.5s forwards;
+	}
+
+	&--bot {
+		animation: go-down-bot 0.5s forwards;
+	}
+}
+
+/* Simulate spinning counterclockwise on scroll up */
+.dots-container.down .dot {
+	&--top {
+		animation: go-up-top 0.5s forwards;
+	}
+
+	&--mid {
+		animation: go-up-mid 0.5s forwards;
+	}
+
+	&--bot {
+		animation: go-up-bot 0.5s forwards;
+	}
+
+	&--for {
+		animation: go-up-for 0.5s forwards;
+	}
+}
