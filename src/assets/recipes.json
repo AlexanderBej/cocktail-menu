@@ -174,7 +174,7 @@
             "marachino cherry", "orance slice"
         ],
         "background": "linear-gradient(180deg, #d06262 0%, #e3a05a 38%)",
-        "instructions": "Add all the ingredients in a shaker over ice. Shake well until the egg white has made a foam, and strain into an ice filled cup. Garnish with an orange slice and a cherry."
+        "instructions": "Add all the ingredients in a shaker over ice. If using egg white, fry shake for about 30 sec, until it has made a foam, then add ice and shake again. Strain into an ice filled cup. Garnish with an orange slice and a cherry."
     },
     {
         "id": 8,
@@ -413,6 +413,6 @@
             "lemon slice", "raspberry"
         ],
         "background": "linear-gradient(180deg, #ffffff 0%, #f6717c 34%)",
-        "instructions": "Muddle the raspberries in a shaker. Add ice and the other ingredients, and shake. Strain into an ice filled glass. Garnish with a tootpick through a raspberry or lemon slice."
+        "instructions": "Muddle the raspberries in a shaker. Add all the other ingredients. If using egg white, dry shake for at least 30 sec, then add ice and shake again. Strain into an ice filled glass. Garnish with a tootpick through a raspberry or lemon slice."
     }
 ]
